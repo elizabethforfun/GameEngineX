@@ -1,0 +1,37 @@
+GameEngineX/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   ├── feature_request.md
+│   └── workflows/
+│       └── ci.yml
+├── src/
+│   ├── core/
+│   │   ├── __init__.py
+│   │   └── engine.py
+│   ├── graphics/
+│   │   ├── __init__.py
+│   │   └── renderer.py
+│   ├── input/
+│   │   ├── __init__.py
+│   │   └── input_manager.py
+│   ├── physics/
+│   │   ├── __init__.py
+│   │   └── physics_engine.py
+│   ├── __init__.py
+│   └── game_engine_x.py
+├── examples/
+│   ├── basic_game.py
+├── tests/
+│   ├── core/
+│   │   └── test_engine.py
+│   ├── graphics/
+│   │   └── test_renderer.py
+│   ├── input/
+│   │   └── test_input_manager.py
+│   └── physics/
+│       └── test_physics_engine.py
+├── .gitignore
+├── LICENSE
+├── README.md
+└── setup.py
